@@ -129,8 +129,8 @@ export function Footer(props) {
         </ContentContainer>
         <ContentContainer>
           <Title>Access</Title>
-          <FLink>Login</FLink>
-          <FLink>Register</FLink>
+          <FLink to="/customer/access/signin">Login</FLink>
+          <FLink to="/customer/access/signup">Register</FLink>
         </ContentContainer>
       </TopContainer>
       <BottomContainer>
