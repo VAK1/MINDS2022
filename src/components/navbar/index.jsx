@@ -5,6 +5,7 @@ import { Button } from "../button";
 import { Marginer } from "../marginer";
 
 import { Link } from "react-router-dom";
+import { HashLink } from 'react-router-hash-link';
 import { deviceSize } from "../responsive";
 import { useMediaQuery } from "react-responsive";
 
@@ -39,6 +40,19 @@ const AnchorLink = styled(Link)`
   }
 `;
 
+const AnchorHashLink = styled(HashLink)`
+  font-size: 12px;
+  color: #fff;
+  cursor: pointer;
+  text-decoration: none;
+  outline: none;
+  transition: all 200ms ease-in-out;
+
+  &:hover {
+    filter: contrast(0.6);
+  }
+`;
+
 const Seperator = styled.div`
   min-height: 35%;
   width: 1px;
@@ -54,23 +68,23 @@ export function Navbar(props) {
     <NavbarContainer useTransparent={useTransparent}>
       <BrandLogo />
       <AccessibilityContainer>
-      {!isMobile && <AnchorLink>Why Join?</AnchorLink>}
+      {!isMobile && <AnchorHashLink to="/#whyJoin">Why Join?</AnchorHashLink>}
         {!isMobile && <Marginer direction="horizontal" margin={10} />}
         {!isMobile && <Seperator />}
         {!isMobile && <Marginer direction="horizontal" margin={10} />}
-        {!isMobile && <AnchorLink>Events</AnchorLink>}
+        {!isMobile && <AnchorHashLink to="/#events">Events</AnchorHashLink>}
         {!isMobile && <Marginer direction="horizontal" margin={10} />}
         {!isMobile && <Seperator />}
         {!isMobile && <Marginer direction="horizontal" margin={10} />}
-        {!isMobile && <AnchorLink>Timeline</AnchorLink>}
+        {!isMobile && <AnchorHashLink to="/#timeline">Timeline</AnchorHashLink>}
         {!isMobile && <Marginer direction="horizontal" margin={10} />}
         {!isMobile && <Seperator />}
         {!isMobile && <Marginer direction="horizontal" margin={10} />}
-        {!isMobile && <AnchorLink>Resources</AnchorLink>}
+        {!isMobile && <AnchorHashLink to="/#resources">Resources</AnchorHashLink>}
         {!isMobile && <Marginer direction="horizontal" margin={10} />}
         {!isMobile && <Seperator />}
         {!isMobile && <Marginer direction="horizontal" margin={10} />}
-        {!isMobile && <AnchorLink>About</AnchorLink>}
+        {!isMobile && <AnchorHashLink to="/#about">About</AnchorHashLink>}
         {!isMobile && <Marginer direction="horizontal" margin={10} />}
         {!isMobile && <Seperator />}
         {!isMobile && <Marginer direction="horizontal" margin={10} />}
