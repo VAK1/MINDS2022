@@ -53,7 +53,7 @@ const wait = (num) => new Promise((rs) => setTimeout(rs, num));
 
 export function WhyJoin(props) {
   return (
-    <ServicesContainer>
+    <ServicesContainer id="whyJoin">
       <Title>The Why Join Container</Title>
       <ServicesWrapper>
         <WarningText>This container is not implemented yet</WarningText>
