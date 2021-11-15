@@ -53,7 +53,7 @@ const wait = (num) => new Promise((rs) => setTimeout(rs, num));
 
 export function Events(props) {
   return (
-    <ServicesContainer>
+    <ServicesContainer id="events">
       <Title>The Events Container</Title>
       <ServicesWrapper>
         <WarningText>This container is not implemented yet</WarningText>
