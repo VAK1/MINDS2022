@@ -1,2 +1,0 @@
-(this.webpackJsonpminds_website=this.webpackJsonpminds_website||[]).push([[0],{10:function(e,n,t){"use strict";t.r(n);t(1);var s=t(3),c=t.n(s),i=(t(8),t(0));var r=function(){return Object(i.jsx)("div",{className:"App",children:Object(i.jsx)("h1",{children:"MINDS 2022"})})};c.a.render(Object(i.jsx)(r,{}),document.getElementById("root"))},8:function(e,n,t){}},[[10,1,2]]]);
-//# sourceMappingURL=main.50cdc449.chunk.js.map
