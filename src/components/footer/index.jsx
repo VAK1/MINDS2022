@@ -120,12 +120,12 @@ export function Footer(props) {
       <TopContainer>
         <ContentContainer>
           <Title>Links</Title>
-          <FLink>Vision</FLink>
-          <FLink>Why Join?</FLink>
-          <FLink>Events</FLink>
-          <FLink>Timeline</FLink>
-          <FLink>Resources</FLink>
-          <FLink>About</FLink>
+          <FLink to="/#vision">Vision</FLink>
+          <FLink to="/#whyJoin">Why Join?</FLink>
+          <FLink to="/#events">Events</FLink>
+          <FLink to="/#timeline">Timeline</FLink>
+          <FLink to="/#resources">Resources</FLink>
+          <FLink to="/#about">About</FLink>
         </ContentContainer>
         <ContentContainer>
           <Title>Access</Title>
