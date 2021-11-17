@@ -4,6 +4,7 @@ import styled from "styled-components";
 import { Button } from "../../components/button";
 import { deviceSize } from "../../components/responsive";
 import { ServiceCard } from "../../components/serviceCard";
+import VisionDeck from "../../components/VisionDeck";
 
 const ServicesContainer = styled.div`
   width: 100%;
@@ -55,9 +56,7 @@ export function Vision(props) {
   return (
     <ServicesContainer id="vision">
       <Title>The Vision Container</Title>
-      <ServicesWrapper>
-        <WarningText>This container is not implemented yet</WarningText>
-      </ServicesWrapper>
+      <VisionDeck id = "visionDeck"/>
     </ServicesContainer>
   );
 }

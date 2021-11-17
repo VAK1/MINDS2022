@@ -1,6 +1,6 @@
 {
   "homepage": "http://VAK1.github.io/MINDS2022",
-  "name": "servycing-app-react",
+  "name": "minds2022-app-react",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -18,7 +18,10 @@
     "react-refresh-webpack-plugin": "^0.1.0",
     "react-responsive": "^8.2.0",
     "react-router-dom": "^5.2.0",
+    "react-router-hash-link": "^2.4.3",
     "react-scripts": "4.0.1",
+    "react-spring": "^9.3.0",
+    "react-with-gesture": "^4.0.8",
     "styled-components": "^5.2.1",
     "web-vitals": "^0.2.4"
   },
